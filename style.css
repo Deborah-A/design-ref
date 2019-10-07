@@ -1,0 +1,106 @@
+body {
+  background-color: sandybrown;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  font-family: 'Vampiro One';
+  color: moccasin;
+  text-shadow: maroon 5px 5px;
+  transform: rotate(-20deg);
+  margin-top: -16vmin;;
+}
+
+.header h1 {
+  font-size: 20vmin;
+  line-height: 0px;
+}
+
+.header h2 {
+  display: inline;
+  padding: 0px;
+  font-size: 15vmin;
+  line-height: 0px;
+  margin-left: 10vmin;
+}
+
+.header h3 {
+  display: inline;
+  padding: 0px;
+  font-size: 13vmin;
+  line-height: 0px;
+}
+
+.weight{
+  display: inline;
+  /* display:flex; */
+  justify-content: space-between;
+}
+.weight p {
+  display: float;
+  float: right;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: right;
+  margin: 5px;
+  margin-top: -18vmin;
+}
+
+.weight h3{
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: normal;
+  font-size: 3vmin;
+  margin-top: -1vmin;
+  margin-left: 2vmin;
+  padding: 0px;
+  color: maroon;
+}
+.weight img{
+  width: 15vmin;
+  display:flex;
+  align-self: flex-start;
+}
+
+.illustration{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.illustration img{
+  margin-top: -25vmin;
+  width: 70vmin;
+  /* height: 50vmin; */
+}
+
+.catchline{
+  margin-left: 35vmin;
+  margin-top: 12vmin;
+  /* display: float; */
+  float: left;
+  font-family: 'Source Serif Pro', serif;
+  font-size: 6vmin;
+  line-height: 0px;
+}
+.triangle{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.triangle img{
+  margin-top: -50vmin;
+  width: 50vmin;
+}
+.free{
+  margin-top: -35vmin;
+  margin-left: 5vmin;
+  /* float: left; */
+}
+.free h1{
+  font-family: 'Vampiro One';
+  color: moccasin;
+  text-shadow: maroon 5px 5px;
+  font-size: 8vmin;
+  line-height: 5vmin;
+}
